@@ -1,0 +1,69 @@
+#tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px 100px 50px;
+  /* margin-bottom: 70px; */
+}
+#tech .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2pt solid dodgerblue;
+  width: 95%;
+  margin-bottom: 30px;
+}
+#tech .title h3 {
+  font-family: 'Audiowide', cursive;
+  font-size: 16pt;
+  padding-bottom: 10px;
+}
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  /* border: 2pt solid red; */
+}
+.tech-description p {
+  font-size: 16pt;
+  padding: 0px 50px 70px 50px;
+}
+.tech-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  /* border: 2pt solid red; */
+}
+/* .tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.772),
+    rgba(0, 0, 0, 0.452)
+  );
+  border-radius: 0.3rem;
+  padding: 17px;
+  width: 27%;
+  font-size: 16pt;
+} */
+.card-header {
+  border-bottom: 2pt solid dodgerblue;
+  margin-bottom: 20px;
+}
+.card-tech p {
+  font-size: 14pt;
+  font-family: 'Audiowide', cursive;
+}
+
+@media screen and (max-width: 550px) {
+  #tech {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

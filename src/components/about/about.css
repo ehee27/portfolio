@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Audiowide&display=swap');
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  margin: 20px;
+  /* border-bottom: 2pt solid dodgerblue; */
+  /* border: 2pt solid red; */
+}
+#about .title h3 {
+  font-size: 65pt;
+  font-family: 'Audiowide', cursive;
+  padding-bottom: 10px;
+}
+
+.sub-title {
+  /* border: 2pt solid dodgerblue; */
+  padding-bottom: 10px;
+  color: dodgerblue;
+  font-size: 14pt;
+}
+.about-body {
+  font-size: 15pt;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  padding: 10px 50px 30px 50px;
+}
+.about-animation {
+  margin-top: -300px;
+  /* border: 2pt solid red; */
+  height: 400px;
+  width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  #about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #about .title h3 {
+    font-size: 45pt;
+  }
+  .sub-title {
+    font-size: 11pt;
+  }
+  .about-body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #about .title h3 {
+    font-size: 28pt;
+  }
+}

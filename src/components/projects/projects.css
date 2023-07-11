@@ -1,0 +1,90 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 70px;
+}
+#projects .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2pt solid dodgerblue;
+  width: 95%;
+  margin-bottom: 30px;
+  font-size: 12pt;
+}
+#projects .title h3 {
+  font-family: 'Audiowide', cursive;
+  padding-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.544)
+  );
+  /* background-color: white; */
+  border-radius: 0.25rem;
+  color: black;
+  padding: 10px;
+  width: 90%;
+}
+.card-container:hover {
+  transition: 0.3s ease-in;
+  background-color: rgba(255, 255, 255, 0.908);
+}
+
+.card-title p {
+  font-family: 'Play', sans-serif;
+  font-size: 18pt;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(75, 75, 75);
+  min-width: 150px;
+  min-height: 35px;
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  border: 2pt solid grey;
+  margin-top: 0;
+}
+button:hover {
+  transition: 0.3s ease;
+  background-color: rgb(189, 189, 189);
+  border: 2pt solid dodgerblue;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  #about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #about .title h3 {
+    font-size: 35pt;
+  }
+  .sub-title {
+    font-size: 11pt;
+  }
+  .about-body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #projects {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
