@@ -60,7 +60,7 @@ const ProjectCard = ({ project }) => {
             </Typography>
           </CardContent>
 
-          <a href={link}>
+          <a href={link} target="_blank">
             <button>VIEW MORE</button>
           </a>
         </Grid>
